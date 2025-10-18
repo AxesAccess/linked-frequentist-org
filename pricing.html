@@ -1,55 +1,53 @@
 ---
 title: Pricing
-heading: Simple pricing — clear and fair
-description: The core application is free. You only pay for optional extended profile insights that require data retrieval from LinkedIn™.
+heading: Simple and transparent
+description: The application is free to use. Profile analysis uses credits, which cover the cost of fetching publicly available data from LinkedIn™.
 pricing_table:
-  - name: Free
-    color: "#6c757d"
+  - name: Free Plan
+    color: "#4a4a4a"
     features:
       - text: Free forever
         highlight: true
-      - text: Analyze your complete LinkedIn™ data export
+      - text: "Includes 1,200 credits for analyzing profiles:"
         highlight: false
-      - text: Explore your network with filters and maps
+      - text: 800 credits for existing connections
         highlight: false
-      - text: Mark favourites and track interactions
+      - text: 400 credits for discovering new connections
         highlight: false
-      - text: Privacy-first — your data stays on your device
-        highlight: false
-      - text: No sign-up required
+      - text: Full access to all app features
         highlight: false
     call_to_action:
-      link: https://mpn.frequentist.org/
-      text: Start for Free
+      link: https://mpn.frequentist.org
+      text: Get started
 
-  - name: Profile Insights (coming soon)
-    color: "#212529"
+  - name: Extra Credits (coming soon)
+    color: "#8e8e8e"
     features:
-      - text: Pay per data refresh
+      - text: Pay only when you need more profile analyses
         highlight: true
-      - text: Retrieve extended public details (location, followers, etc.)
+      - text: Top up your credits anytime
         highlight: false
-      - text: Keep your connection data up to date
+      - text: Flexible pricing per profile
         highlight: false
-      - text: Buy credits only when you need them
+      - text: No subscriptions — pay as you go
         highlight: false
-      - text: Transparent pricing — no subscriptions
-        highlight: false
-      - text: Available soon
+      - text: Early access for registered users
         highlight: false
     call_to_action:
-      link: "#"
-      text: Coming Soon
+      link: https://mpn.frequentist.org
+      text: Get started
+
 faq:
-  - question: Is the app completely free?
-    answer: Yes. All analysis features based on your LinkedIn™ data export are free to use and work locally on your device.
-  - question: What are “Profile Insights”?
-    answer: Profile Insights are optional data enrichments — for example, retrieving additional public details such as current location or number of followers. They help keep your network data fresh and more informative.
-  - question: How will Profile Insights be billed?
-    answer: Each profile insight request will use a small number of credits. You’ll be able to purchase credits in flexible packs once this feature is released.
-  - question: When will credits become available?
-    answer: The ability to buy credits for profile insights will be introduced soon. Subscribe to updates on our homepage to be notified.
+  - question: What are credits used for?
+    answer: Credits cover the cost of analyzing LinkedIn™ profiles — the process of retrieving and processing publicly available information.
+  - question: How many profiles can I analyze with 1,200 credits?
+    answer: Each analyzed profile costs one credit. You can use them freely across your connections and new discoveries.
+  - question: Will my credits expire?
+    answer: No, your free credits stay available on your account. Additional top-ups will also have no expiration date.
+  - question: Can I buy more credits now?
+    answer: Not yet — we’re preparing the payment system. For now, all users receive 1,200 free credits when they sign up.
 ---
+
 <div class="plans">
 	{% for plan in page.pricing_table %}
 		<ul class="plan">

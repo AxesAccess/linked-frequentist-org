@@ -6,7 +6,7 @@
 	.plan {
 		list-style: none;
 		padding: 0;
-		margin: 0 10px 50px 10px;
+		margin: 0 10px 50px 30px;
 		text-align: center;
 		border: 1px solid #eee;
 		border-radius: 5px;
@@ -14,7 +14,7 @@
 		width: 100%;
 
 		.highlighted {
-			font-size: 1.2em
+			font-size: 1.2em;
 		}
 
 		.pricing-cta {
@@ -52,7 +52,9 @@
 	@media #{$desktop} {
 		@include columns(2);
 	}
+
 	color: #666;
+
 	div {
 		break-inside: avoid;
 		padding: 25px 0;
