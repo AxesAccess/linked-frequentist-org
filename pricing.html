@@ -1,71 +1,54 @@
 ---
 title: Pricing
-heading: Find the perfect plan for your business
-description: All plans include our award winning sales optimization solution to track your sales in real time.
+heading: Simple pricing — clear and fair
+description: The core application is free. You only pay for optional extended profile insights that require data retrieval from LinkedIn™.
 pricing_table:
-  - name: Basic
-    color: "#8e8e8e"
+  - name: Free
+    color: "#6c757d"
     features:
-      - text: $25 per month
+      - text: Free forever
         highlight: true
-      - text: Up to 5 users
+      - text: Analyze your complete LinkedIn™ data export
         highlight: false
-      - text: Basic lead scoring
+      - text: Explore your network with filters and maps
         highlight: false
-      - text: CRM
+      - text: Mark favourites and track interactions
         highlight: false
-      - text: Basic reporting
+      - text: Privacy-first — your data stays on your device
         highlight: false
-      - text: Sales map
+      - text: No sign-up required
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=basic
-      text: Get started
-  - name: Pro
-    color: "#4a4a4a"
+      link: https://mpn.frequentist.org/
+      text: Start for Free
+
+  - name: Profile Insights (coming soon)
+    color: "#212529"
     features:
-      - text: $99 per month
+      - text: Pay per data refresh
         highlight: true
-      - text: Everything in Basic
+      - text: Retrieve extended public details (location, followers, etc.)
         highlight: false
-      - text: Up to 25 users
+      - text: Keep your connection data up to date
         highlight: false
-      - text: Advanced lead scoring
+      - text: Buy credits only when you need them
         highlight: false
-      - text: Pipeline management
+      - text: Transparent pricing — no subscriptions
         highlight: false
-      - text: Advanced reporting
+      - text: Available soon
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=pro
-      text: Get started
-  - name: Professional
-    color: "#000000"
-    features:
-      - text: $299 per month
-        highlight: true
-      - text: Everything in Basic and Pro
-        highlight: false
-      - text: Up to 100 users
-        highlight: false
-      - text: Campaign builder
-        highlight: false
-      - text: Machine learning
-        highlight: false
-      - text: Calendar
-        highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=professional
-      text: Get started
+      link: "#"
+      text: Coming Soon
 faq:
-  - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
-  - question: Can I change my plan at a later time?
-    answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
-  - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+  - question: Is the app completely free?
+    answer: Yes. All analysis features based on your LinkedIn™ data export are free to use and work locally on your device.
+  - question: What are “Profile Insights”?
+    answer: Profile Insights are optional data enrichments — for example, retrieving additional public details such as current location or number of followers. They help keep your network data fresh and more informative.
+  - question: How will Profile Insights be billed?
+    answer: Each profile insight request will use a small number of credits. You’ll be able to purchase credits in flexible packs once this feature is released.
+  - question: When will credits become available?
+    answer: The ability to buy credits for profile insights will be introduced soon. Subscribe to updates on our homepage to be notified.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
