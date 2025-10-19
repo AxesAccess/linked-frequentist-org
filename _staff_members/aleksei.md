@@ -1,7 +1,7 @@
 ---
 name: Aleksei Prishchepo
 position: Founder
-image_path: https://blog.frequentist.org/profile_h.jpg
+image_path: /images/aleksei.png
 linkedin: aleksei-pr
 blurb: Aleksei creates data apps.
 ---
