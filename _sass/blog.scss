@@ -5,7 +5,9 @@
 	li {
 		margin: 100px 0;
 	}
+
 }
+
 
 .blog-post {
 	.author {
@@ -19,6 +21,7 @@
 			height: 125px;
 			margin-top: 0;
 		}
+
 		.blurb {
 			text-align: center;
 		}
@@ -26,6 +29,7 @@
 
 	h3 {
 		margin: 0;
+
 		a {
 			color: #000;
 			text-decoration: none;
@@ -39,10 +43,11 @@
 	}
 
 	.blog-navigation {
-		font-size: 14px;
+		font-size: 1em;
 		display: block;
 		width: auto;
 		overflow: hidden;
+
 		a {
 			display: block;
 			width: 50%;
@@ -82,9 +87,21 @@
 			display: table;
 			clear: both;
 		}
+
 	}
 
 	.post-content {
+
+		p {
+			font-size: large !important;
+		}
+
+		ul {
+			li {
+				font-size: large !important;
+			}
+		}
+
 		.button {
 			margin: 30px 0 0 0;
 		}
@@ -97,12 +114,13 @@
 
 .blog-filter {
 	text-align: center;
+
 	a {
 		background: #eee;
-    padding: 3px 5px;
-    font-size: .8em;
-    border-radius: 5px;
-    color: #888;
+		padding: 3px 5px;
+		font-size: .8em;
+		border-radius: 5px;
+		color: #888;
 		transition: .2s ease-in-out;
 
 		&:hover {
